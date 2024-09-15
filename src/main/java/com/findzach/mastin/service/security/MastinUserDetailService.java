@@ -1,6 +1,6 @@
 package com.findzach.mastin.service.security;
 
-import com.findzach.mastin.domain.MastinUser;
+import com.findzach.mastin.domain.user.MastinUser;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

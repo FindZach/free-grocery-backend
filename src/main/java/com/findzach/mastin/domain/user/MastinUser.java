@@ -1,5 +1,6 @@
-package com.findzach.mastin.domain;
+package com.findzach.mastin.domain.user;
 
+import com.findzach.mastin.domain.BaseEntity;
 import jakarta.persistence.*;
 
 import org.springframework.security.core.userdetails.UserDetails;
@@ -12,11 +13,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 @Entity
-public class MastinUser implements UserDetails {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class MastinUser extends BaseEntity implements UserDetails {
 
     private String username;
     private String password;
@@ -34,15 +31,6 @@ public class MastinUser implements UserDetails {
         this.username = username;
         this.password = password;
         this.roles = roles;
-    }
-
-    // Getters and setters
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     @Override
