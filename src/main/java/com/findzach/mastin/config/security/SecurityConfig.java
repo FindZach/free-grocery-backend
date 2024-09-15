@@ -1,4 +1,4 @@
-package com.findzach.mastin.config;
+package com.findzach.mastin.config.security;
 
 import com.findzach.mastin.security.JwtRequestFilter;
 import org.springframework.context.annotation.Bean;

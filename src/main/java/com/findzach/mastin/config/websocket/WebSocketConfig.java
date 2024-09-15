@@ -1,4 +1,4 @@
-package com.findzach.mastin.config;
+package com.findzach.mastin.config.websocket;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
