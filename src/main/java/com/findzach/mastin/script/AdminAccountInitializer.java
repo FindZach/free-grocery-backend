@@ -1,4 +1,4 @@
-package com.findzach.mastin;
+package com.findzach.mastin.script;
 
 import com.findzach.mastin.domain.MastinUser;
 import com.findzach.mastin.repository.UserRepository;
@@ -7,8 +7,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
-
-import java.util.Collections;
 
 @Component
 public class AdminAccountInitializer {

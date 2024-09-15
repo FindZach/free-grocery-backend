@@ -1,5 +1,5 @@
 
-<p align="center">
+
 <h1> Backend Tech Stack </h1>
 
 <ul>
@@ -23,4 +23,3 @@
 </ul>
 
 <h1>More to come...</h1>
-</p>
