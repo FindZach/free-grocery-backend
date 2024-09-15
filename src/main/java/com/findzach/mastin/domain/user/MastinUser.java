@@ -12,6 +12,10 @@ import java.util.stream.Collectors;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
+/**
+ * @author Zach Smith
+ * @since 9/15/2024
+ */
 @Entity
 public class MastinUser extends BaseEntity implements UserDetails {
 

@@ -1,5 +1,9 @@
 package com.findzach.mastin.domain.user.req;
 
+/**
+ * @author Zach Smith
+ * @since 9/15/2024
+ */
 public class LoginRequest {
 
     private String username;

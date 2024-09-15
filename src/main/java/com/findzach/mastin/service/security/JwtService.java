@@ -9,6 +9,10 @@ import org.springframework.stereotype.Service;
 import java.util.Date;
 import java.util.function.Function;
 
+/**
+ * @author Zach Smith
+ * @since 9/15/2024
+ */
 @Service
 public class JwtService {
 

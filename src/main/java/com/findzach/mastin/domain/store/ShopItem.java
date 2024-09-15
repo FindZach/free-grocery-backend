@@ -3,6 +3,10 @@ package com.findzach.mastin.domain.store;
 import com.findzach.mastin.domain.BaseEntity;
 import jakarta.persistence.MappedSuperclass;
 
+/**
+ * @author Zach Smith
+ * @since 9/15/2024
+ */
 @MappedSuperclass
 public abstract class ShopItem extends BaseEntity {
 

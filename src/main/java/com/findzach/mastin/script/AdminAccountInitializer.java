@@ -15,6 +15,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 
+/**
+ * @author Zach Smith
+ * @since 9/15/2024
+ */
 @Component
 public class AdminAccountInitializer {
 
