@@ -1,5 +1,5 @@
 
-<center>
+<p align="center">
 <h1> Backend Tech Stack </h1>
 
 Spring Boot 3
@@ -12,5 +12,4 @@ Spring JPA
 
 <h1> Goals </h1> 
 
-
-</center>
+</p>
