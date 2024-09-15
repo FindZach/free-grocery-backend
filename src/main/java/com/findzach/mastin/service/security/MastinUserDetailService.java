@@ -12,7 +12,7 @@ public class MastinUserDetailService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        // Here we are hardcoding an admin account for simplicity
+        // Here we are hardcoding an admin account for simplicity / testing
         if ("admin".equals(username)) {
             return new MastinUser(
                     1L,
