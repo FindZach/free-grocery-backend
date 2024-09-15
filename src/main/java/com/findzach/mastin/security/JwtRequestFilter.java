@@ -1,6 +1,6 @@
 package com.findzach.mastin.security;
 
-import com.findzach.mastin.service.JwtService;
+import com.findzach.mastin.service.security.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

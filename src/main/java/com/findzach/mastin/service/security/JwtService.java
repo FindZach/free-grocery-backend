@@ -1,4 +1,4 @@
-package com.findzach.mastin.service;
+package com.findzach.mastin.service.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
